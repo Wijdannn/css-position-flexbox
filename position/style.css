@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    margin-top: 50px; ;
+}
+.judul{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    background-color: aqua;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.static{
+    position: static;
+    width: 80%;
+    background-color: aqua;
+}
+
+.relative{
+    position: relative;
+    left: 50px;
+    width: 80%;
+    background-color: aqua;
+}
+
+.absolute{
+    position: sticky;
+    bottom: 20px;
+    background-color: blueviolet;
+}
+
+.sticky1{
+    position: sticky;
+    bottom: 0px;
+    background-color: cornflowerblue;
+}
+
+.sticky2{
+    position: sticky;
+    top: 50px;
+    background-color: darkseagreen;
+}
+
+.judul ul li {
+    float: right;
+    margin-right:30px ;
+    list-style-type: none;
+}
+
+.judul ul li:hover {
+    float: right;
+    margin-right:30px ;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+
+.judul h1 {
+    float: left;
+}
+
+.position-static{
+    text-align: justify;
+}
+
+.position-relative{
+    text-align: justify;
+}
+.position-absolute{
+    text-align: justify;
+}
+.position-sticky1{
+    text-align: justify;
+}
+.position-sticky2{
+    text-align: justify;
+}
+
+.gbr{
+    width:100%;
+    height: 170px;
+    display: flex;
+    justify-content: end;
+}
+
+.gbr .op{
+    margin:10px;
+}
